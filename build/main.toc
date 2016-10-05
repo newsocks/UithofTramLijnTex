@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Problem description}{1}
+\contentsline {subsection}{\numberline {1.1}Problem}{1}
+\contentsline {subsection}{\numberline {1.2}description}{1}
+\contentsline {section}{\numberline {2}Assumptions}{2}
+\contentsline {section}{\numberline {3}Problem analysis}{3}
+\contentsline {section}{\numberline {4}Model explanation}{4}
+\contentsline {subsection}{\numberline {4.1}Events and event handlers}{4}
+\contentsline {subsection}{\numberline {4.2}Preformance measures}{4}
+\contentsline {subsection}{\numberline {4.3}State}{4}
+\contentsline {section}{\numberline {5}Input analysis}{5}
+\contentsline {subsection}{\numberline {5.1}Modeling of input data from the given data files}{5}
+\contentsline {subsection}{\numberline {5.2}Choise and motivation for applied probability distrobutions}{5}
+\contentsline {section}{\numberline {6}Experiments with realistic model: set up and results}{6}
+\contentsline {section}{\numberline {7}Results from the artificial input model}{7}
+\contentsline {section}{\numberline {8}Conclusion}{8}
+\contentsline {section}{\numberline {9}Appendix}{9}
