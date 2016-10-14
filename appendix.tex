@@ -1,1 +1,34 @@
 \section{Appendix}
+
+Information gained during the interview.
+
+Each tram has two carriges each having a capacity of 210 people.
+
+The average dwell time in seconds of a tram is calculated by the following formula:
+
+  \begin{equation}
+    \label{eq:eq1}
+    \{ d = 12,5 + 0,22 peopleIn + 0.13 peopleOut \}.
+  \end{equation}
+
+An alternative model is:
+  \begin{equation}
+    \label{eq:eq1}
+    \{ d = (2.3 * 10 ^ -5) * (peopleTransfer ^ 2) * (peopleIn + peopleOut) \}.
+  \end{equation}
+
+If a tram is occupying a station all trams traveling to that station have to wait.
+
+Waiting times are generated using the Gama's distrobution.
+
+Trams at head stations have a turnaround time of 40 sec. 
+All other trams at that station will have to wait for the turning tram.
+
+The minimum departure times between trams leaving the same station is 40 sec.
+
+Turning a tram around takes 3 min.
+
+In the morning it is expected that each station gets visited by 4 trams a hour.
+Later that day this number will be increased to 16 per hour.
+
+Trams park at P\&R
