@@ -1,27 +1,22 @@
-\documentclass[10pt,a4paper]{article}
-\usepackage[driver=xetex,a4paper]{geometry} % propper margins on a4 paper
-\usepackage{pdfpages} % to include cover
-\usepackage{multicol} % allows multiple colums
-\usepackage{titlesec} % tune whitespace around headings
-\titlespacing\subsection{0pt}{0.5em}{0.0em}
-\usepackage{fontspec} % allows custom fonts
-%\setmainfont{Lucida Bright}
-%\setmainfont{TeX Gyre Pagella}
-%\setmainfont[BoldFont=DejaVu Sans Bold]{DejaVu Serif}
-%\setmonofont{DejaVu Sans Mono}
+\documentclass[a4paper]{article}
+
+\title{Uithof tramlijn}
+\author{Pim Agterberg | xxxxxxx \and{Jarno Holstein | 6013406}}
+
+\usepackage{amsmath, amssymb, graphicx, paralist, tabularx, booktabs, subcaption, titlesec}
+\usepackage[driver=xetex,a4paper]{geometry}
+\usepackage[font={small}]{caption}
+\usepackage{fontspec}
+
+\graphicspath{{pics/}}
 
 \begin{document}
-\pagestyle{empty} % disable page numbers
-%\includepdf[pages=1]{build/cover.pdf}
-%\pagebreak
+
+\maketitle
+\pagebreak
 
 \tableofcontents
 \pagebreak
-
-% start page numbers
-\setcounter{page}{1}
-\pagenumbering{arabic}
-\pagestyle{plain}
 
 \input{problem_description}
 \pagebreak
@@ -40,8 +35,5 @@
 \input{conclusion}
 \pagebreak
 \input{appendix}
-%\input{intro}
-%\pagebreak
-
 
 \end{document}
